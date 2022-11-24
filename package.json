@@ -1,0 +1,13 @@
+{
+  "name": "russian-travel",
+  "version": "1.0.0",
+  "description": "Проект: Путешествие по России (Яндекс Практикум)",
+  "author": "Nikolay Karetskiy <lynxloner@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
