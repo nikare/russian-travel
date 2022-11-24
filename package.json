@@ -2,12 +2,16 @@
   "name": "russian-travel",
   "version": "1.0.0",
   "description": "Проект: Путешествие по России (Яндекс Практикум)",
+  "repository": "https://github.com/nikare/russian-travel",
+  "homepage": "https://nikare.github.io/russian-travel",
   "author": "Nikolay Karetskiy <lynxloner@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "deploy": "gh-pages -d build"
+    "start": "live-server . --port=1234 --host=localhost",
+    "deploy": "gh-pages -d ."
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "live-server": "^1.2.2"
   }
 }
