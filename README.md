@@ -1,9 +1,10 @@
 # Проект: Путешествие по России
 
 ### Обзор
-* Интро
-* Figma
-* Картинки
+
+- Интро
+- Figma
+- Картинки
 
 **Интро**
 
@@ -13,7 +14,7 @@
 
 **Figma**
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
+- [Ссылка на макет в Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0)
 
 **Картинки**
 
@@ -21,3 +22,6 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+
+[Реализация проекта «Путешествие по России»](https://code.s3.yandex.net/web-plus/static/second-month/russian-travel-project/index.html)  
+[Чеклист по самопроверке №2](https://code.s3.yandex.net/web-developer/checklists-pdf/web-plus/checklist-2.pdf)
