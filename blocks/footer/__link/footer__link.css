@@ -1,0 +1,12 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+}
+
+.footer__link:not(:last-of-type) {
+  margin-right: 18px;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+}

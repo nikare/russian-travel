@@ -8,3 +8,7 @@
 .lang__link:not(:last-of-type) {
   margin-right: 18px;
 }
+
+.lang__link:hover {
+  opacity: 0.8;
+}
