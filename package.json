@@ -7,11 +7,9 @@
   "author": "Nikolay Karetskiy <lynxloner@icloud.com>",
   "license": "MIT",
   "scripts": {
-    "start": "live-server . --port=1234 --host=localhost",
-    "deploy": "gh-pages -d ."
+    "start": "live-server . --port=1234 --host=localhost"
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0",
     "live-server": "^1.2.2"
   }
 }
