@@ -1,0 +1,8 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.place:not(:last-of-type) {
+  margin-bottom: 80px;
+}
