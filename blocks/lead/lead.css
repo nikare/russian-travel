@@ -1,5 +1,4 @@
 .lead {
-  max-width: 984px;
-  padding: 28px 0 46px;
-  margin: 0 auto;
+  padding: 28px 100px 46px;
+  box-sizing: border-box;
 }
