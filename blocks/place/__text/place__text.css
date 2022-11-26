@@ -1,3 +1,9 @@
 .place__text {
   flex-grow: 1;
 }
+
+@media screen and (max-width: 576px) {
+  .place__text {
+    padding: 0 16px;
+  }
+}

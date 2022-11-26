@@ -1,5 +1,5 @@
 .trip {
-  position: relative;
+  display: flex;
   max-width: 1184px;
   margin: 46px auto;
 }

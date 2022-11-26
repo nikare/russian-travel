@@ -1,3 +1,5 @@
 .trip__background {
   width: 100%;
+  flex-shrink: 0;
+  object-fit: cover;
 }

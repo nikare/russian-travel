@@ -1,0 +1,28 @@
+.footer__item:not(:last-of-type) {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 740px) {
+  .footer__item {
+    display: block;
+  }
+
+  .footer__item:not(:last-of-type) {
+    margin-right: 0;
+  }
+
+  .footer__item:not(:first-of-type) {
+    margin-top: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer__item:not(:first-of-type) {
+    margin-top: 0;
+  }
+
+  .footer__item:not(:last-of-type) {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+}

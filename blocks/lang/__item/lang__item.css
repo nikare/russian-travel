@@ -1,0 +1,3 @@
+.lang__item:not(:last-of-type) {
+  margin-right: 18px;
+}
