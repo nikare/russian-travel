@@ -2,9 +2,17 @@
   display: flex;
 }
 
+@media screen and (max-width: 740px) {
+  .footer__links {
+    display: block;
+    columns: 2;
+    column-fill: balance;
+  }
+}
+
 @media screen and (max-width: 576px) {
   .footer__links {
-    flex-direction: column;
+    columns: auto;
     margin-bottom: 48px;
   }
 }

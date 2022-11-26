@@ -6,3 +6,19 @@
   font-weight: 900;
   margin: 0 0 32px;
 }
+
+@media screen and (max-width: 768px) {
+  .trip__title {
+    font-size: 54px;
+    line-height: 58px;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .trip__title {
+    font-size: 32px;
+    line-height: 35px;
+    margin-bottom: 16px;
+  }
+}
