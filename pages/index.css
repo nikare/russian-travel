@@ -7,8 +7,8 @@
 /* page */
 @import url('../blocks/page/page.css');
 
-/* wrapper */
-@import url('../blocks/wrapper/wrapper.css');
+/* container */
+@import url('../blocks/container/container.css');
 
 /* header */
 @import url('../blocks/header/header.css');
@@ -20,9 +20,6 @@
 @import url('../blocks/lang/lang.css');
 @import url('../blocks/lang/__link/lang__link.css');
 @import url('../blocks/lang/__link/_active/lang__link_active.css');
-
-/* content */
-@import url('../blocks/content/content.css');
 
 /* lead */
 @import url('../blocks/lead/lead.css');
