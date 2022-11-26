@@ -1,8 +1,15 @@
 .place {
   display: flex;
+  align-items: flex-start;
   flex-wrap: wrap;
 }
 
 .place:not(:last-of-type) {
   margin-bottom: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .place:not(:last-of-type) {
+    margin-bottom: 72px;
+  }
 }

@@ -1,3 +1,10 @@
 .place__content {
   display: flex;
+  align-items: flex-start;
+}
+
+@media screen and (max-width: 576px) {
+  .place__content {
+    flex-direction: column;
+  }
 }

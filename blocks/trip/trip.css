@@ -1,6 +1,17 @@
 .trip {
   position: relative;
   max-width: 1184px;
-  margin: 46px 0;
-  margin: 0 auto;
+  margin: 46px auto;
+}
+
+@media screen and (max-width: 768px) {
+  .trip {
+    margin: 44px 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .trip {
+    margin: 32px 0;
+  }
 }

@@ -14,5 +14,12 @@
   .lead {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 44px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .lead {
+    padding-bottom: 32px;
   }
 }
