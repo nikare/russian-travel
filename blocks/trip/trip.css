@@ -1,4 +1,6 @@
 .trip {
   position: relative;
+  max-width: 1184px;
   margin: 46px 0;
+  margin: 0 auto;
 }

@@ -1,3 +1,21 @@
 .photos__image {
-  width: 284px;
+  width: calc((100% - 16px * 3) / 4);
+}
+
+@media screen and (max-width: 1024px) {
+  .photos__image {
+    width: calc((100% - 16px * 2) / 3);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .photos__image {
+    width: calc((100% - 16px) / 2);
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photos__image {
+    width: 100%;
+  }
 }
