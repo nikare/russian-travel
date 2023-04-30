@@ -1,0 +1,9 @@
+.places__article {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 40px;
+}
+
+.places__article:not(:last-of-type) {
+  margin-bottom: 80px;
+}
