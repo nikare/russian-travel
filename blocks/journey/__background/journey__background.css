@@ -1,0 +1,29 @@
+.journey__background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  min-height: 740px;
+  background: url('../../../images/cover-trains.jpg') 50% no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.journey__background::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #2a2c2f;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+.journey__background:hover::before {
+  opacity: 0.8;
+}

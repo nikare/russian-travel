@@ -56,6 +56,9 @@
 
 /* journey */
 @import url('../blocks/journey/journey.css');
+@import url('../blocks/journey/__background/journey__background.css');
+@import url('../blocks/journey/__title/journey__title.css');
+@import url('../blocks/journey/__subtitle/journey__subtitle.css');
 
 /* footer */
 @import url('../blocks/footer/footer.css');
