@@ -1,6 +1,6 @@
 .places__article {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 460px 484px;
   gap: 48px 40px;
 }
 
