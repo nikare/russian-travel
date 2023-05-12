@@ -1,6 +1,6 @@
 .photos__list {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   list-style: none;
   gap: 16px;
   padding: 0;
