@@ -26,9 +26,14 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
   .places__article {
     grid-template-columns: auto;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .places__article {
     row-gap: 32px;
   }
 

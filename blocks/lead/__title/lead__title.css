@@ -7,8 +7,19 @@
   margin: 0 auto 32px;
 }
 
+@media screen and (max-width: 767px) {
+  .lead__title {
+    max-width: 420px;
+    font-size: 48px;
+    line-height: 50px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .lead__title {
+    max-width: 320px;
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 16px;
