@@ -7,3 +7,14 @@
 .places__paragraph:not(:last-of-type) {
   margin-bottom: 26px;
 }
+
+@media screen and (max-width: 1023px) {
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .places__paragraph:not(:last-of-type) {
+    margin-bottom: 25px;
+  }
+}

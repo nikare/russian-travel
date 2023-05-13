@@ -1,3 +1,15 @@
 .journey {
   padding: 46px 0;
 }
+
+@media screen and (max-width: 1023px) {
+  .journey {
+    padding: 44px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .journey {
+    padding: 32px 0;
+  }
+}
